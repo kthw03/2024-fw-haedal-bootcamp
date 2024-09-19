@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
+    printf(10);
     int A, B;
     scanf("%d %d", &A, &B);
     if (A > B)
