@@ -2,7 +2,8 @@
 int main() {
     int N;
     scanf("%d", &N);
-    int Num[N];
+    int Num[100];
+    scanf("%d", &Num);
     int v;
     scanf("%d", &v);
     int answer;
