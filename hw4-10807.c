@@ -1,16 +1,18 @@
 #include <stdio.h>
 int main() {
     int N;
-    scanf("%d", &N);
     int Num[100];
-    scanf("%d", &Num);
     int v;
+    scanf("%d", &N);
+    for(int i=0; i<N; i++){
+        scanf("%d", &Num[i]);
+    }
     scanf("%d", &v);
-    int answer;
+    int answer=0;
     for (int i=0; i<N; i++) {
         if (Num[i] == v)
             answer += 1;
     }
-    printf("%d", v);
+    printf("%d", answer);
     return 0;
 }
