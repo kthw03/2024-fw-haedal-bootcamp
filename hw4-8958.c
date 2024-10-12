@@ -16,7 +16,7 @@ int main() {
             else
                 flag=0;
         }
-        printf("%d", answer);
+        printf("%d\n", answer);
     }
     return 0;
 }
